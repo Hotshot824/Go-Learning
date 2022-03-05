@@ -78,3 +78,5 @@ func FucPointer(a **[5]string, len int){
 	}
 	(*a)[0] = "Hello"
 }
+
+
