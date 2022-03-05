@@ -3,6 +3,7 @@ package main
 import (
 	"go-example/hello"
 	"go-example/variable"
+	"go-example/table99"
 	"fmt"
 )
 
@@ -21,4 +22,7 @@ func main(){
 	variable.ShowString()
 	fmt.Print("Chstring - example:\n")
 	variable.ChangeString()
+
+	fmt.Print("Table99\n")
+	table99.Table99()
 }
