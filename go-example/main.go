@@ -1,28 +1,37 @@
 package main
 
 import (
-	"go-example/hello"
-	"go-example/variable"
-	"go-example/table99"
-	"fmt"
+	// "go-example/hello"
+	// "go-example/table99"
+	// "go-example/variable"
+	"go-example/logop"
 )
 
-func main(){
-	fmt.Print("IO - example:\n")
-	hello.Sayhello()
-	hello.Sayhi()
+func main() {
+	//basic IO
+	/*
+		hello.Sayhello()
+		hello.Sayhi()
+	*/
 
-	fmt.Print("Var - example:\n")
-	variable.ShowVarType()
-	fmt.Print("Const - example:\n")
-	variable.ShowConst()
-	fmt.Print("Bool - example:\n")
-	variable.ShowBool()
-	fmt.Print("String - example:\n")
-	variable.ShowString()
-	fmt.Print("Chstring - example:\n")
-	variable.ChangeString()
+	//basic variable declaration
+	/*
+		variable.ShowVarType()
+		variable.ShowConst()
+		variable.ShowBool()
+		variable.ShowString()
+		variable.ChangeString()
+	*/
 
-	fmt.Print("Table99\n")
-	table99.Table99()
+	//basic for loop
+	/*
+		table99.Table99()
+	*/
+
+	//basic logic operation
+	//logop.RandomTest()
+	//logop.GotoHere()
+	//logop.LoopIter()
+	//logop.SimplePointer()
+	logop.RunPointer()
 }
