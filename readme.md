@@ -1,6 +1,6 @@
 # Golang-Learning
 
-## http.server
+## Simple http.server
 
 ```go
 package goserver
