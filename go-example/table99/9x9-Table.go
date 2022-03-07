@@ -15,3 +15,19 @@ func Table99() {
 		i++
 	}
 }
+
+func Table99plus() {
+	count := 0
+	for true{
+		if count > 7{
+			break
+		}
+		for i := 1; i < 10; i++{
+			for j := 1 + count; j < 4 + count; j++{
+				fmt.Print(j, " * ", i, " = ", j * i, "\t")
+			}
+			fmt.Print("\n")
+		} 
+		count += 3
+	}
+}
