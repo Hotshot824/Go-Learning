@@ -2,9 +2,9 @@ package main
 
 import (
 	// "go-example/hello"
-	"go-example/table99"
+	// "go-example/table99"
 	// "go-example/variable"
-	// "go-example/logop"
+	"go-example/logop"
 )
 
 func main() {
@@ -24,8 +24,8 @@ func main() {
 	*/
 
 	// basic for loop
-	table99.Table99()
-	table99.Table99plus()
+	// table99.Table99()
+	// table99.Table99plus()
 
 	//basic logic operation
 	//logop.RandomTest()
@@ -33,6 +33,5 @@ func main() {
 	//logop.LoopIter()
 	//logop.SimplePointer()
 	//logop.RunPointer()
-
-	
+	logop.Fibon(20)
 }

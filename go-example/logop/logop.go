@@ -79,4 +79,13 @@ func FucPointer(a **[5]string, len int){
 	(*a)[0] = "Hello"
 }
 
+func Fibon(end int){
+	a, b := 0, 1
+	for i := 0; i < end; i++{
+		fmt.Print(a, " ")
+		a, b = b, a + b
+	}
+	fmt.Print("\n")
+}
+
 
