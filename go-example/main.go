@@ -4,7 +4,8 @@ import (
 	// "go-example/hello"
 	// "go-example/table99"
 	// "go-example/variable"
-	"go-example/logop"
+	// "go-example/logop"
+	"go-example/inter"
 )
 
 func main() {
@@ -33,5 +34,13 @@ func main() {
 	//logop.LoopIter()
 	//logop.SimplePointer()
 	//logop.RunPointer()
-	logop.Fibon(20)
+	//logop.Fibon(20)
+
+	//hello.Str_ch()
+	//hello.Input_code()
+
+	// logop.RunDecode()
+	dog := inter.Dog{Name:"Kenny"}
+	inter.ShowEat(&dog)
+	inter.ShowRun(&dog)
 }

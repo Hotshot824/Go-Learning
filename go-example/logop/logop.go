@@ -88,4 +88,24 @@ func Fibon(end int){
 	fmt.Print("\n")
 }
 
+func RunDecode(){
+	var text string
+	var en int
+	fmt.Println("Enter text:")
+	fmt.Scanf("%s", &text)
+	fmt.Println("Eencrypt:")
+	fmt.Scanf("%d", &en)
+	fmt.Print(en, "\tEncode\n")
+	Encode(&text, en)
+	fmt.Print(text, "\tEncode\n")
+}
+
+func Encode(text *string, en int){
+	for i := 0; i <= en; i++{
+		for index, value := range *text{
+			fmt.Printf("%d\t%c\n", index , value)
+		}
+	} 
+}
+
 

@@ -1,11 +1,29 @@
 package hello
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
-func Sayhello()  {
+func Sayhello() {
 	fmt.Print("Hello, GO!\n")
 }
 
-func Sayhi(){
+func Sayhi() {
 	fmt.Print("Hi, GO!\n")
+}
+
+func Str_ch() {
+	data := "Hello"
+	fmt.Println(reflect.TypeOf(data))
+	fmt.Printf("%s\n", data)
+	b := []byte(data)
+	fmt.Println(reflect.TypeOf(b))
+	fmt.Printf("%s\n", b)
+}
+
+func Input_code(){
+	var text string
+	fmt.Scanf("%s", &text)
+	return text
 }
